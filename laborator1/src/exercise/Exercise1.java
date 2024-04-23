@@ -8,6 +8,15 @@ public class Exercise1 {
      * tastatura.
      */
     public static void main(String[] args) {
+
+        String testStringBlock = """
+                Un text asezat frumos
+                din java 17""";
+        System.out.println(testStringBlock);
+        int pig = (short) 4;
+        //System.out.println(pig++);
+        pig = pig++;
+        System.out.println(pig);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Read n: ");
         int n = scanner.nextInt();
