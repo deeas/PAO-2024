@@ -30,7 +30,7 @@ elementele stream-ului in functie de acesta
 Exemple de operatii terminale:
 - foreach() : aplica anumite operatii supra fiecarui element din stream
 - collect() : stocheaza elementele din stream intr-o colectie
-- match() : verifica un Predicate; returenaza boolean
+- match() : verifica un Predicate; returneaza boolean
 - count() : returneaza numarul de elemente din stream
 - reduce() : reduce elementele unui stream, folosind o functie; returneaza Optional
 - min(), max(), average()
